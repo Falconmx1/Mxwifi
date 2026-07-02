@@ -21,3 +21,6 @@ git clone https://github.com/Falconmx1/Mxwifi.git
 cd Mxwifi
 chmod +x install.sh mxwifi.sh
 sudo ./install.sh
+
+Uso
+sudo ./mxwifi.sh
