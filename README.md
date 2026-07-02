@@ -18,13 +18,21 @@ Mxwifi es la herramienta más chingona y poderosa para gestionar redes WiFi en L
 🎮 Menú Interactivo (9 Opciones)
 
 1- 🔍 Escanear redes WiFi - iwlist, awk, sed - Te muestra SSID, señal, canal y seguridad. ¡Como un rastreador profesional!
+
 2- 📡 Listar dispositivos -	ip link, iwconfig, nmcli - Te dice qué interfaces de red tienes y su estado actual
+
 3- 📂 Ver perfiles guardados -	nmcli con show - Lista todas las redes WiFi que has guardado
+
 4- 🗑️ Eliminar perfil -	nmcli con delete - Borra perfiles viejos que ya no te sirven
+
 5- 🔗 Conectar a red guardada	- nmcli con up - Conéctate con una red que ya guardaste
+
 6- ⚙️ Configurar nueva red - nmcli dev wifi connect -	Agrega redes nuevas, con o sin contraseña
+
 7- 📶 Crear hotspot -	nmcli con add type wifi - Convierte tu compu en un punto de acceso WiFi
+
 8- 🛑 Apagar hotspot - nmcli con down/delete - Apaga el punto de acceso cuando ya no lo necesites
+
 9	🚪 Salir	exit	¡Hasta luego, perro!
 
 📦 INSTALACIÓN RÁPIDA (3 PASOS)
