@@ -16,4 +16,5 @@ Mxwifi es la herramienta más chingona y poderosa para gestionar redes WiFi en L
 ⚡ CARACTERÍSTICAS QUE TE VUELAN LA CABEZA
 
 🎮 Menú Interactivo (9 Opciones)
+
 1- 🔍 Escanear redes WiFi - iwlist, awk, sed - Te muestra SSID, señal, canal y seguridad. ¡Como un rastreador profesional!
