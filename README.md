@@ -3,7 +3,7 @@
 Herramienta de gestión WiFi para Linux con menú interactivo.
 
 ## Características
-- 🔍 Escaneo de redes WiFi (SSID, señal, canal, seguridad)
+- 🔍 Escaneo de redes WiFi (SSID, señal, canal, seguridad, MAC)
 - 📡 Listado de dispositivos de red
 - 📂 Gestión de perfiles WiFi guardados (listar y eliminar)
 - 🔗 Conexión a redes guardadas
@@ -24,3 +24,18 @@ sudo ./install.sh
 
 Uso
 sudo ./mxwifi.sh
+
+Menú de Opciones
+═══════════════════════════════════════
+          M X W I F I  v1.0
+═══════════════════════════════════════
+[1]  Escanear redes WiFi
+[2]  Listar dispositivos de red
+[3]  Ver perfiles WiFi guardados
+[4]  Eliminar perfil WiFi
+[5]  Conectarse a red guardada
+[6]  Configurar nueva red
+[7]  Crear hotspot/punto de acceso
+[8]  Apagar hotspot
+[9]  Salir
+═══════════════════════════════════════
