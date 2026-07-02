@@ -1,2 +1,23 @@
-# Mxwifi---Herramienta-de-Gesti-n-WiFi-para-Linux
-Es una herramienta de línea de comandos para Linux que permite gestionar redes WiFi de manera sencilla e interactiva. Con un menú de 9 opciones (incluyendo salida), esta herramienta ofrece funcionalidades para escanear redes disponibles, visualizar detalles como nombre (SSID), intensidad de señal, canal, seguridad, y dirección MAC.
+# Mxwifi 🔍
+
+Herramienta de gestión WiFi para Linux con menú interactivo.
+
+## Características
+- 🔍 Escaneo de redes WiFi (SSID, señal, canal, seguridad)
+- 📡 Listado de dispositivos de red
+- 📂 Gestión de perfiles WiFi guardados (listar y eliminar)
+- 🔗 Conexión a redes guardadas
+- ⚙️ Configuración de nuevas redes
+- 📶 Creación de hotspots/puntos de acceso
+- 🚀 Interfaz con banner y 9 opciones (8 funciones + salida)
+
+## Requisitos
+- Linux con `nmcli`, `iwlist`, `iwconfig`, `ip`
+- Permisos de superusuario para algunas funciones
+
+## Instalación
+```bash
+git clone https://github.com/Falconmx1/Mxwifi.git
+cd Mxwifi
+chmod +x install.sh mxwifi.sh
+sudo ./install.sh
