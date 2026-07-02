@@ -39,3 +39,7 @@ Menú de Opciones
 [8]  Apagar hotspot
 [9]  Salir
 ═══════════════════════════════════════
+
+Ejecución
+Siempre ejecuta con permisos de superusuario:
+sudo mxwifi
