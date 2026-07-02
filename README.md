@@ -1,45 +1,27 @@
-# Mxwifi 🔍
+🔥 MXWIFI - DOMINA EL WIFI COMO UN VERDADERO HACKER 🔥
+<div align="center">
+https://img.shields.io/badge/%F0%9F%9A%80-MXWIFI_v1.0-00ff00?style=for-the-badge&logo=linux&logoColor=white&labelColor=000000
+https://img.shields.io/badge/Shell-Bash_4.4+-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white
+https://img.shields.io/badge/OS-Linux_Friendly-FCC624?style=for-the-badge&logo=linux&logoColor=black
+https://img.shields.io/badge/License-MIT_%F0%9F%94%A5-blue?style=for-the-badge&logo=mit-license&logoColor=white
+https://img.shields.io/badge/Status-Operational-success?style=for-the-badge
 
-Herramienta de gestión WiFi para Linux con menú interactivo.
+</div>
 
-## Características
-- 🔍 Escaneo de redes WiFi (SSID, señal, canal, seguridad, MAC)
-- 📡 Listado de dispositivos de red
-- 📂 Gestión de perfiles WiFi guardados (listar y eliminar)
-- 🔗 Conexión a redes guardadas
-- ⚙️ Configuración de nuevas redes
-- 📶 Creación de hotspots/puntos de acceso
-- 🚀 Interfaz con banner y 9 opciones (8 funciones + salida)
+🎯 ¿QUÉ MIERDA ES MXWIFI?
+Mxwifi es la herramienta más chingona y poderosa para gestionar redes WiFi en Linux. Olvídate de comandos complicados, aquí tienes un menú interactivo con 9 opciones que te harán sentir como un hacker de película.
 
-## Requisitos
-- Linux con `nmcli`, `iwlist`, `iwconfig`, `ip`
-- Permisos de superusuario para algunas funciones
+¡Sin dependencias pedorras! Solo usamos comandos nativos de Linux como nmcli, iwlist, iwconfig y ip. Puro poder del sistema, nada de bibliotecas externas.
 
-## Instalación
-```bash
-git clone https://github.com/Falconmx1/Mxwifi.git
-cd Mxwifi
-chmod +x install.sh mxwifi.sh
-sudo ./install.sh
-
-Uso
-sudo ./mxwifi.sh
-
-Menú de Opciones
-═══════════════════════════════════════
-          M X W I F I  v1.0
-═══════════════════════════════════════
-[1]  Escanear redes WiFi
-[2]  Listar dispositivos de red
-[3]  Ver perfiles WiFi guardados
-[4]  Eliminar perfil WiFi
-[5]  Conectarse a red guardada
-[6]  Configurar nueva red
-[7]  Crear hotspot/punto de acceso
-[8]  Apagar hotspot
-[9]  Salir
-═══════════════════════════════════════
-
-Ejecución
-Siempre ejecuta con permisos de superusuario:
-sudo mxwifi
+⚡ CARACTERÍSTICAS QUE TE VUELAN LA CABEZA
+🎮 Menú Interactivo (9 Opciones)
+Opción	Función	Comandos Usados	¿Qué Pedo?
+1	🔍 Escanear redes WiFi	iwlist, awk, sed	Te muestra SSID, señal, canal y seguridad. ¡Como un rastreador profesional!
+2	📡 Listar dispositivos	ip link, iwconfig, nmcli	Te dice qué interfaces de red tienes y su estado actual
+3	📂 Ver perfiles guardados	nmcli con show	Lista todas las redes WiFi que has guardado
+4	🗑️ Eliminar perfil	nmcli con delete	Borra perfiles viejos que ya no te sirven
+5	🔗 Conectar a red guardada	nmcli con up	Conéctate con una red que ya guardaste
+6	⚙️ Configurar nueva red	nmcli dev wifi connect	Agrega redes nuevas, con o sin contraseña
+7	📶 Crear hotspot	nmcli con add type wifi	Convierte tu compu en un punto de acceso WiFi
+8	🛑 Apagar hotspot	nmcli con down/delete	Apaga el punto de acceso cuando ya no lo necesites
+9	🚪 Salir	exit	¡Hasta luego, perro!
