@@ -14,6 +14,6 @@ Mxwifi es la herramienta más chingona y poderosa para gestionar redes WiFi en L
 ¡Sin dependencias pedorras! Solo usamos comandos nativos de Linux como nmcli, iwlist, iwconfig y ip. Puro poder del sistema, nada de bibliotecas externas.
 
 ⚡ CARACTERÍSTICAS QUE TE VUELAN LA CABEZA
+
 🎮 Menú Interactivo (9 Opciones)
-Opción Función
-1
+1- 🔍 Escanear redes WiFi - iwlist, awk, sed - Te muestra SSID, señal, canal y seguridad. ¡Como un rastreador profesional!
